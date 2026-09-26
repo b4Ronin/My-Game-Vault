@@ -1,9 +1,10 @@
 import { getStore } from "@netlify/blobs";
 import type { Config } from "@netlify/functions";
+import imports from "../../game-imports.json";
 const allowed=["Xbox One","Xbox Series X","Nintendo Switch"];
 const store=()=>getStore("game-vault",{consistency:"strong"});
 const json=(data:any,status=200,headers:Record<string,string>={})=>new Response(JSON.stringify(data),{status,headers:{"content-type":"application/json",...headers}});
-async function all(){return (await store().get("collection",{type:"json"}))||[]}
+async function all(){let games:any[]=(await store().get("collection",{type:"json"}))||[];const seen=new Set(games.map(key));let changed=false;for(const raw of (imports as any).games||[]){const g={...clean(raw),id:String(raw.id||crypto.randomUUID()),dateAdded:String(raw.dateAdded||new Date().toISOString())};if(g.title&&allowed.includes(g.platform)&&!seen.has(key(g))&&!(g.upc&&games.some(x=>x.upc&&x.upc===g.upc))){games.push(g);seen.add(key(g));changed=true}}if(changed)await save(games);return games}
 async function save(g:any[]){await store().setJSON("collection",g)}
 function clean(x:any){const o:any={};for(const k of ["title","platform","edition","coverUrl","summary","releaseDate","genre","esrb","upc","developer","publisher","localPlayers","onlinePlayers","notes","seriesXEnhancements","backwardCompatibility","dlcPhysical","metadataSourceId"])o[k]=String(x?.[k]??"").trim();for(const k of ["localCoop","onlineCoop","splitScreen"])o[k]=!!x?.[k];o.physical=true;o.edition=o.edition||"Standard";return o}
 function key(g:any){return [g.title,g.platform,g.edition].map(x=>String(x||"").trim().toLowerCase()).join("|")}
