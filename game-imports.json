@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "id": "cod-black-ops-6-xbox-crossgen-196388431946",
+      "title": "Call of Duty: Black Ops 6",
+      "platform": "Xbox Series X",
+      "edition": "Cross-Gen Bundle",
+      "physical": true,
+      "coverUrl": "",
+      "summary": "Spy action thriller set in the early 1990s with Campaign, Multiplayer, and Round-Based Zombies.",
+      "releaseDate": "2024-10-25",
+      "genre": "Shooter",
+      "esrb": "Mature 17+",
+      "upc": "196388431946",
+      "developer": "Treyarch, Raven Software",
+      "publisher": "Activision",
+      "localPlayers": "",
+      "onlinePlayers": "2–12",
+      "localCoop": false,
+      "onlineCoop": true,
+      "splitScreen": false,
+      "notes": "Physical Xbox Cross-Gen Bundle. Game disc inside; content download and internet required.",
+      "seriesXEnhancements": "Optimized for Xbox Series X; 4K Ultra HD",
+      "backwardCompatibility": "Playable on Xbox Series X and Xbox One; Smart Delivery; cross-generation and cross-platform play.",
+      "dlcPhysical": "Requires content download; no DLC-on-disc claim recorded.",
+      "metadataSourceId": "UPC 196388431946",
+      "dateAdded": "2026-09-26T00:00:00.000Z"
+    }
+  ]
+}
