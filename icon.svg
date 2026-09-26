@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="96" fill="#000000"/>
-  <rect x="54" y="62" width="404" height="388" rx="56" fill="#111111" stroke="#ff8800" stroke-width="18"/>
-  <text x="256" y="210" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="900" text-anchor="middle" fill="#ffd400">FUEL</text>
-  <text x="256" y="310" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="900" text-anchor="middle" fill="#ffffff">XFER</text>
-  <circle cx="154" cy="372" r="34" fill="#ff2020"/>
-  <circle cx="256" cy="372" r="34" fill="#ffd400"/>
-  <circle cx="358" cy="372" r="34" fill="#20e000"/>
-</svg>
