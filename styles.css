@@ -15,3 +15,7 @@
 #details .dialog-actions button{padding:clamp(8px,1.2dvh,13px) 15px;}
 @media(max-width:390px){#detailDialog{width:calc(100% - 12px)}#details .detail-cover{width:clamp(82px,16dvh,110px)}#details .detail-top{gap:10px}}
 @media(max-height:700px){#details .detail-cover{width:82px}#details>.detail-top+p{margin:6px 0;font-size:12px}#details .dialog-head{min-height:28px}}
+
+/* Covers: crop source-image borders and fill the case frame edge-to-edge */
+.cover img{object-fit:cover;transform:scale(1.08);transform-origin:center}
+.detail-cover{object-fit:cover;object-position:center;clip-path:inset(3% 3% 3% 3% round 10px);transform:scale(1.065)}
