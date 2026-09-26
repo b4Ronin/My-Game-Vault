@@ -1,0 +1,1 @@
+{"name":"my-game-vault","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"netlify dev"},"dependencies":{"@netlify/blobs":"latest","@netlify/functions":"latest"}}
