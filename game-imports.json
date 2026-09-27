@@ -26,6 +26,33 @@
       "metadataSourceId": "Back case image + Supabase cover",
       "dateAdded": "2026-09-26T00:00:00.000Z",
       "imageFile": "Call of Duty Black Ops 7.png"
+    },
+    {
+      "id": "hogwarts-legacy-xbox-one-883929730698",
+      "title": "Hogwarts Legacy",
+      "platform": "Xbox One",
+      "edition": "Standard",
+      "physical": true,
+      "coverUrl": "",
+      "imageFile": "Hogwarts Legacy.png",
+      "summary": "An immersive, open-world action RPG set in the world first introduced in the Harry Potter books. Take control of the action and be at the center of your own adventure in the wizarding world.",
+      "releaseDate": "",
+      "genre": "Action RPG",
+      "esrb": "Teen",
+      "upc": "883929730698",
+      "developer": "Avalanche Software",
+      "publisher": "Warner Bros. Games",
+      "localPlayers": "1",
+      "onlinePlayers": "",
+      "localCoop": false,
+      "onlineCoop": false,
+      "splitScreen": false,
+      "notes": "Physical Xbox One copy. Back case lists single player, 4K Ultra HD, HDR10, Dolby Atmos, 3D Spatial Sound, and in-game purchases.",
+      "seriesXEnhancements": "4K Ultra HD; HDR10; Dolby Atmos; 3D Spatial Sound",
+      "backwardCompatibility": "Xbox One",
+      "dlcPhysical": "",
+      "metadataSourceId": "Back case image + Supabase cover",
+      "dateAdded": "2026-09-27T16:23:00-05:00"
     }
   ]
 }
