@@ -1,7 +1,7 @@
 import { getStore } from "@netlify/blobs";
 import type { Config } from "@netlify/functions";
 import imports from "../../game-imports.json";
-const allowed=["Xbox One","Xbox Series X","Nintendo Switch"];
+const allowed=["Xbox One","Xbox Series X","Nintendo Switch","PlayStation 5"];
 const store=()=>getStore("game-vault",{consistency:"strong"});
 const json=(data:any,status=200,headers:Record<string,string>={})=>new Response(JSON.stringify(data),{status,headers:{"content-type":"application/json",...headers}});
 async function all(){let games:any[]=(await store().get("collection",{type:"json"}))||[];let changed=false;for(const raw of (imports as any).games||[]){const g={...clean(raw),id:String(raw.id||crypto.randomUUID()),dateAdded:String(raw.dateAdded||new Date().toISOString())};if(!g.title||!allowed.includes(g.platform))continue;const i=games.findIndex((x:any)=>key(x)===key(g)||(g.upc&&x.upc&&x.upc===g.upc));if(i<0){games.push(g);changed=true}else{const merged={...games[i],...g,id:games[i].id||g.id,dateAdded:games[i].dateAdded||g.dateAdded};if(JSON.stringify(merged)!==JSON.stringify(games[i])){games[i]=merged;changed=true}}}if(changed)await save(games);return games}
