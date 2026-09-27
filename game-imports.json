@@ -26,33 +26,6 @@
       "metadataSourceId": "Back case image + Supabase cover",
       "dateAdded": "2026-09-26T00:00:00.000Z",
       "imageFile": "Call of Duty Black Ops 7.png"
-    },
-    {
-      "id": "hogwarts-legacy-ps5",
-      "title": "Hogwarts Legacy",
-      "platform": "PlayStation 5",
-      "edition": "Standard",
-      "physical": true,
-      "imageFile": "Hogwarts Legacy.png",
-      "coverUrl": "",
-      "summary": "An immersive, open-world action RPG set in the world first introduced in the Harry Potter books. Take control of the action and be at the center of your own adventure in the wizarding world.",
-      "releaseDate": "",
-      "genre": "Action RPG",
-      "esrb": "PEGI 12",
-      "upc": "5051888255728",
-      "developer": "Avalanche Software",
-      "publisher": "Warner Bros. Games",
-      "localPlayers": "1",
-      "onlinePlayers": "",
-      "localCoop": false,
-      "onlineCoop": false,
-      "splitScreen": false,
-      "notes": "Back case identifies a PS5 copy. 80 GB minimum storage. Vibration function and trigger effect supported. In-game purchases.",
-      "seriesXEnhancements": "",
-      "backwardCompatibility": "",
-      "dlcPhysical": "",
-      "metadataSourceId": "Back case image + Supabase cover",
-      "dateAdded": "2026-09-27T16:11:00-05:00"
     }
   ]
 }
