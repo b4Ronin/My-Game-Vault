@@ -41,3 +41,7 @@ dialog{border-color:#315f96;background:#090e1a}
 .meta small{color:#8191b4}
 .secondary{background:#0b0f19;border-color:#2c3550}
 .danger{border-color:#7d355f;background:#2b1324}
+
+/* Uniform collection thumbnails: match the tall Call of Duty case proportions */
+.cover{aspect-ratio:5/7}
+.cover img{width:100%;height:100%;object-fit:cover;object-position:center;transform:none}
