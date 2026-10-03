@@ -6,7 +6,6 @@
       "platform": "Xbox Series X",
       "edition": "Cross-Gen Bundle",
       "physical": true,
-      "coverUrl": "",
       "summary": "Spy action thriller set in the early 1990s with Campaign, Multiplayer, and Round-Based Zombies.",
       "releaseDate": "2024-10-25",
       "genre": "Shooter",
@@ -23,9 +22,8 @@
       "seriesXEnhancements": "Optimized for Xbox Series X; 4K Ultra HD",
       "backwardCompatibility": "Playable on Xbox Series X and Xbox One; Smart Delivery; cross-generation and cross-platform play.",
       "dlcPhysical": "Requires content download; no DLC-on-disc claim recorded.",
-      "metadataSourceId": "Back case image + Supabase cover",
-      "dateAdded": "2026-09-26T00:00:00.000Z",
-      "imageFile": "Call of Duty Black Ops 7.png"
+      "metadataSourceId": "Back case image",
+      "dateAdded": "2026-09-26T00:00:00.000Z"
     },
     {
       "id": "hogwarts-legacy-xbox-one-883929730698",
@@ -33,8 +31,6 @@
       "platform": "Xbox One",
       "edition": "Standard",
       "physical": true,
-      "coverUrl": "",
-      "imageFile": "Hogwarts Legacy.png",
       "summary": "An immersive, open-world action RPG set in the world first introduced in the Harry Potter books. Take control of the action and be at the center of your own adventure in the wizarding world.",
       "releaseDate": "",
       "genre": "Action RPG",
@@ -51,7 +47,7 @@
       "seriesXEnhancements": "4K Ultra HD; HDR10; Dolby Atmos; 3D Spatial Sound",
       "backwardCompatibility": "Xbox One",
       "dlcPhysical": "",
-      "metadataSourceId": "Back case image + Supabase cover",
+      "metadataSourceId": "Back case image",
       "dateAdded": "2026-09-27T16:23:00-05:00"
     }
   ]
